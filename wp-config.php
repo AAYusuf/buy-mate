@@ -29,7 +29,7 @@ if(isset($_ENV[`CLEARDB_DATABASE_URL`])) {
     define(‘DB_CHARSET’, ‘utf8’);
     define(‘DB_COLLATE’, ‘’);
 } else {
-    die('No Database credentials!');
+    die($_ENV[`CLEARDB_DATABASE_URL`]);
 }
 /**#@+
  * Authentication Unique Keys and Salts.
