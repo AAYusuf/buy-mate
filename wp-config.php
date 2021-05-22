@@ -20,7 +20,7 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'buy-mate-v1' );
+define( 'DB_NAME', 'database_name_here' );
 
 /** MySQL database username */
 define( 'DB_USER', 'b7f21861dd8136' );
@@ -29,7 +29,7 @@ define( 'DB_USER', 'b7f21861dd8136' );
 define( 'DB_PASSWORD', 'aecd0a58' );
 
 /** MySQL hostname */
-define( 'DB_HOST', 'mysql://b7f21861dd8136:aecd0a58@us-cdbr-east-03.cleardb.com/heroku_eaae81ca7f5b943?reconnect=true' );
+define( 'DB_HOST', 'https://www.cleardb.com/service/1.0/api' );
 
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
